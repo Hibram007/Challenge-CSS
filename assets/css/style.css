@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 body {
     /* Stles applied to all body and sub-elements*/
@@ -21,6 +21,10 @@ body {
     background: rgb(71, 68, 68);
     padding: 0;
     justify-content: space-between;
+
+    /*image styling*/
+    background-image: url("background-1.jpg"); 
+    background-size: 500px;
   }
 
   header h1 {
@@ -49,7 +53,9 @@ body {
     list-style: none;
     margin: 0 20px;
     padding: 5px 100px;
+    float:right;
     }
+    
     header nav ul li {
         float:left;
         padding: 10px 6px;
@@ -64,11 +70,24 @@ body {
 
 /* About me Section*/
 .About-Me {
-    display:flex;
-    flex-wrap: wrap;
-    width: 100%;
-    line-height: 50px;
+  display: flex;
 }
+.About-Me h2{
+  float: left;
+  margin: 20px 30px;
+  padding: 5px 5px;
+  text-align: right;
+  font-size: 40px;
+}
+
+.About-Me p { 
+  line-height: 35px;
+  font-size: 15px;
+  padding: 5px 20px;
+  float: right;
+  border-left: rgb(75, 75, 107) solid;
+}
+
 
 /* Work me Section*/
 .Work {
