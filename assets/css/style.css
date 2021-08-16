@@ -24,7 +24,6 @@ body {
 
     /*image styling*/
     background-image: url("background-1.jpg"); 
-    background-size: 500px;
   }
 
   header h1 {
@@ -116,9 +115,10 @@ body {
   height: auto;
 }
 
-app-section-layout {
-  margin: ;
+.app-section-layout {
+  padding-right: 100px;
 }
+
 .app-section-layout img {
   border: 3px solid lightskyblue; 
   border-width: 6px;
